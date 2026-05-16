@@ -1,0 +1,20 @@
+# robots.txt for Neurosurgeon Website
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Disallow admin areas (if any added later)
+# Disallow: /admin/
+
+# Allow search engines to index all pages
+Allow: /index.html
+Allow: /about.html
+Allow: /specializations.html
+Allow: /testimonials.html
+Allow: /contact.html
+
+# Crawl-delay (optional - use if needed)
+# Crawl-delay: 10
